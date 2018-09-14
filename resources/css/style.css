@@ -9,8 +9,15 @@ img {
   max-width: 100%;
 }
 
+.section-content {
+  padding: 5rem 0;
+}
 
-/* Cover */
+input {
+  margin-right: 10px;
+}
+
+/* COVER SECTION */
 
 #cover {
   background: #222 url('../img/stars.jpg') center center no-repeat;
@@ -25,4 +32,29 @@ img {
 
 #cover-caption {
   width: 100%;
+}
+
+
+
+
+
+/* ABOUT SECTION */
+
+#about {
+  background: url('../img/girlincar.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.about-text {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1.875rem;
+}
+
+/* FOOTER */
+#footer-main {
+  background: #222;
+  color: white;
+  font-size: 0.8rem;
+  padding: 2.5rem;
 }
